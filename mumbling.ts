@@ -1,3 +1,9 @@
+/*
+Input -> output
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"
+*/
 export function accum(s: string): string {
     let i = 1;
     let returnString = '';
